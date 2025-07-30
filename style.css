@@ -1,0 +1,41 @@
+
+     #btn-div{
+      padding:25px;
+      margin:10px;
+     }
+     .btn-op{
+            
+            padding:25px;
+            margin:10px; 
+            border-radius: 100px;
+            font-weight: bolder;
+            font-size: x-large;
+            background-color: orange;
+     }
+     .btn-num{
+        
+          padding:25px;
+          margin:10px; 
+           border-radius: 100px;
+             font-weight: bolder;
+             font-size: x-large;
+             background-color: rgb(108, 250, 255);
+     }
+     #display-div{
+          font-weight: bolder;
+     }
+     fieldset{
+        border-radius: 25px;
+        width: fit-content;
+        background-color: rgba(0, 157, 255, 0.9);
+     }
+     #display{
+        font-size:xx-large;
+        font-weight: bolder;
+        border-radius: 25px;
+        border:none;
+        width:98%;
+        height:100px ;
+        color:rgb(0, 0, 0);
+        background-color: rgb(159, 251, 242,0.6);
+     }

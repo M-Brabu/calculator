@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator-css.css">
+</head>
+<center>
+<body>
+    <fieldset>
+    <div id="display-div">
+        <input id="display" readonly>
+    </div>
+    <div id="btn-div">
+        <button class="btn-op" onclick="appendToDiplay('+')">+</button>
+        <button class="btn-num"  onclick="appendToDiplay('1')">1</button>
+        <button class="btn-num"  onclick="appendToDiplay('2')">2</button>
+        <button class="btn-num"  onclick="appendToDiplay('3')">3</button>
+        <br>
+        <button class="btn-op"  onclick="appendToDiplay('-')">-</button>
+        <button class="btn-num"  onclick="appendToDiplay('4')">4</button>
+        <button class="btn-num"  onclick="appendToDiplay('5')">5</button>
+        <button class="btn-num"  onclick="appendToDiplay('6')">6</button>
+        <br>
+        <button class="btn-op"  onclick="appendToDiplay('*')">*</button>
+        <button class="btn-num"  onclick="appendToDiplay('7')">7</button>
+        <button class="btn-num"  onclick="appendToDiplay('8')">8</button>
+        <button class="btn-num"  onclick="appendToDiplay('9')">9</button>
+        <br>
+        <button class="btn-op"  onclick="appendToDiplay('/')">/</button>
+        <button class="btn-op"  onclick="appendToDiplay('%')">%</button>
+        <button class="btn-num"  onclick="appendToDiplay('0')">0</button>
+        <button class="btn-num"  onclick="appendToDiplay('.')" >.</button>
+        <br>
+        <button class="btn-num"  onclick="sine('sin')">Sin</button>
+        <button class="btn-num"  onclick="cosine('Cos')" >Cos</button>
+        <button class="btn-num"  onclick="tangent('Tan')" >Tan</button>
+        <br>
+        <button class="btn-num"  onclick="appendToDiplay('(')" >(</button>
+        <button class="btn-num"  onclick="appendToDiplay(')')" >)</button>
+        <button class="btn-op"  onclick="clearDiplay('C')">C</button>
+        <button class="btn-op"  onclick="calculator('=')">=</button>
+    </div>
+    </fieldset>
+    <script src="calculator-script.script"></script>
+</body>
+</center>
+</html>
